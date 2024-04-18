@@ -1,7 +1,9 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+// import me from "../assets/images/color-press.png";
 
 const ContactComponent = () => {
+  // const [active, setActive] = useState(false);
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -15,6 +17,7 @@ const ContactComponent = () => {
         () => {
           console.log("SUCCESS!");
           e.target.reset();
+          // setActive(true);
         },
         (error) => {
           console.log("FAILED...", error.text);
@@ -44,7 +47,6 @@ const ContactComponent = () => {
               type="email"
               name="user_email"
               placeholder="Email"
-              pattern=".+@email\.com"
               size="30"
               required
             />
@@ -58,6 +60,22 @@ const ContactComponent = () => {
               <input type="submit" value="Send" className="contact-form-btn" />
             </div>
           </form>
+          {/* {active === true ? (
+            <div
+              style={{
+                position: "absolute",
+                width: "200px",
+                height: "200px",
+                backgroundColor: "#ff6650",
+                top: 0,
+                right: 0,
+              }}>
+              <img src={me} alt="" width={100} />
+              Thank you for your Email
+            </div>
+          ) : (
+            false
+          )} */}
         </div>
       </div>
     </div>

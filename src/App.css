@@ -222,7 +222,7 @@ a:link {
   background: linear-gradient(0deg, rgba(46,18,51,1) 15%, rgba(90,42,78,1) 85%);
   padding: 9em 16px 8em;
   position: relative; 
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 .skill-bg .card {

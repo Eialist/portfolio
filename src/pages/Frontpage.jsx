@@ -3,7 +3,7 @@ import EducationComponent from "../components/EducationComponent";
 import Footer from "../components/Footer";
 import HeroComponent from "../components/HeroComponent";
 import Navbar from "../components/Navbar";
-import SkillsComponent from "../components/SkillsComponent";
+import SkillsComponent from "../components/WorkComponent";
 import { useRef } from "react";
 
 const Frontpage = () => {

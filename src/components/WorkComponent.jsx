@@ -6,13 +6,13 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
 
-const SkillsComponent = () => {
+const WorkComponent = () => {
   return (
     <div className="container skill-bg">
       <div className="diagonal-bg-left"></div>
       <div className="diagonal-bg-right"></div>
       <div className="row skill-text-container">
-        <h3 className="skill-title">Skill set</h3>
+        <h3 className="skill-title">Work</h3>
         <p className="skill-text">
           I have become proficient in JavaScript, HTML, CSS, Bootstrap, jQuery,
           React, Node.js, Express.js, MongoDB, UX/UI design with Figma, and
@@ -96,4 +96,4 @@ const SkillsComponent = () => {
   );
 };
 
-export default SkillsComponent;
+export default WorkComponent;
