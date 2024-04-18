@@ -32,9 +32,28 @@ const ContactComponent = () => {
             className="d-flex flex-column"
             style={{ gap: "16px" }}>
             <h4 className="contact-title">Contact me</h4>
-            <input type="text" name="user_name" placeholder="Name" />
-            <input type="email" name="user_email" placeholder="Email" />
-            <textarea name="user_message" placeholder="Message" />
+            <input
+              type="text"
+              name="user_name"
+              placeholder="Name"
+              minLength={2}
+              maxLength={40}
+              required
+            />
+            <input
+              type="email"
+              name="user_email"
+              placeholder="Email"
+              pattern=".+@email\.com"
+              size="30"
+              required
+            />
+            <textarea
+              name="user_message"
+              placeholder="Message"
+              maxLength={1000}
+              required
+            />
             <div className="d-flex justify-content-end">
               <input type="submit" value="Send" className="contact-form-btn" />
             </div>

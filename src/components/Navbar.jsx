@@ -1,10 +1,13 @@
 import github from "../assets/icons/github.png";
 
 const Navbar = ({ scrollToContactComponent }) => {
-  const handleClick = () => {
-    scrollToContactComponent();
+  const closeMobileNav = () => {
     let navbar = document.getElementById("navbarNav");
     navbar.classList.remove("show");
+  };
+  const handleClick = () => {
+    scrollToContactComponent();
+    closeMobileNav();
   };
   return (
     <div className="nav-container d-flex align-items-end">
@@ -33,17 +36,26 @@ const Navbar = ({ scrollToContactComponent }) => {
                 <a
                   className="nav-link active nav-text"
                   aria-current="page"
-                  href="#">
+                  href="#"
+                  onClick={closeMobileNav}>
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link nav-text" href="#">
+                <a
+                  className="nav-link nav-text"
+                  href="#"
+                  onClick={closeMobileNav}
+                  disabled>
                   Portfolio
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link nav-text" href="#">
+                <a
+                  className="nav-link nav-text"
+                  href="#"
+                  onClick={closeMobileNav}
+                  disabled>
                   Pricing
                 </a>
               </li>
