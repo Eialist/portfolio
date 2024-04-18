@@ -8,7 +8,7 @@ const Navbar = ({ scrollToContactComponent }) => {
   };
   return (
     <div className="nav-container d-flex align-items-end">
-      <nav className="navbar navbar-expand-lg container-fluid navbar-container">
+      <nav className="navbar navbar-expand-lg container-fluid navbar-container container">
         <div className="container-fluid d-flex justify-content-between">
           <div className="mt-3 navbar-mobile-container">
             <a className="navbar-brand nav-text nav-title" href="#">
