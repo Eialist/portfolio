@@ -53,7 +53,13 @@ const WorkComponent = () => {
             Different visualizations and design ideas for websites and widgets
             in Figma
           </p>
-          <button className="work-btn">Show</button>
+          <button className="work-btn">
+            <a
+              href="https://dribbble.com/shots/24633788-MeReads-Fun-and-Engaging-ESL-Reading-App?added_first_shot=true"
+              target="_blank">
+              Show
+            </a>
+          </button>
         </div>
         <div
           className="card col-sm col-md"
