@@ -9,6 +9,7 @@ AOS.init();
 const WorkComponent = () => {
   return (
     <div className="container work-bg">
+      <div className="diagonal-bg-right"></div>
       <div className="diagonal-bg-left"></div>
       <div className="row work-text-container">
         <h3 className="work-title">Work</h3>
