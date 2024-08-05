@@ -54,9 +54,7 @@ const WorkComponent = () => {
             in Figma
           </p>
           <button className="work-btn">
-            <a
-              href="https://dribbble.com/shots/24633788-MeReads-Fun-and-Engaging-ESL-Reading-App?added_first_shot=true"
-              target="_blank">
+            <a href="https://dribbble.com/EiaErica" target="_blank">
               Show
             </a>
           </button>
@@ -71,7 +69,10 @@ const WorkComponent = () => {
             <img src={JS} alt="" />
           </div>
           <h4>JAVASCRIPT</h4>
-          <p>Memory game built using HTML, CSS and vanilla Javascript</p>
+          <p>
+            Memory game built using HTML, CSS and vanilla Javascript, for
+            Desktop.
+          </p>
           <button className="work-btn">
             <a href="https://eialist.github.io/memory/" target="_blank">
               Show
