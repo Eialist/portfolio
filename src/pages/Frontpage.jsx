@@ -3,7 +3,8 @@ import EducationComponent from "../components/EducationComponent";
 import Footer from "../components/Footer";
 import HeroComponent from "../components/HeroComponent";
 import Navbar from "../components/Navbar";
-import SkillsComponent from "../components/WorkComponent";
+import SkillsetComponent from "../components/SkillsetComponent";
+import WorkComponent from "../components/WorkComponent";
 import { useRef } from "react";
 
 const Frontpage = () => {
@@ -23,10 +24,11 @@ const Frontpage = () => {
         scrollToComponent={scrollToComponent}
         scrollToContactComponent={scrollToContactComponent}
       />
+      <SkillsetComponent />
       <div ref={eduRef}>
         <EducationComponent />
       </div>
-      <SkillsComponent />
+      <WorkComponent />
       <div ref={contactRef}>
         <ContactComponent />
       </div>

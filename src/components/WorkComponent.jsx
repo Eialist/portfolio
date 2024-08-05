@@ -8,12 +8,11 @@ AOS.init();
 
 const WorkComponent = () => {
   return (
-    <div className="container skill-bg">
+    <div className="container work-bg">
       <div className="diagonal-bg-left"></div>
-      <div className="diagonal-bg-right"></div>
-      <div className="row skill-text-container">
-        <h3 className="skill-title">Work</h3>
-        <p className="skill-text">
+      <div className="row work-text-container">
+        <h3 className="work-title">Work</h3>
+        <p className="work-text">
           I have become proficient in JavaScript, HTML, CSS, Bootstrap, jQuery,
           React, Node.js, Express.js, MongoDB, UX/UI design with Figma, and
           more, including Scrum and Kanban methodologies.
@@ -26,7 +25,7 @@ const WorkComponent = () => {
           data-aos-easing="ease-in-out"
           data-aos-delay="50"
           data-aos-duration="1500">
-          <div className="skill-circle-icon bg-red">
+          <div className="work-circle-icon bg-red">
             <img src={react} alt="" />
           </div>
           <h4>REACT</h4>
@@ -34,7 +33,7 @@ const WorkComponent = () => {
             Movie theater booking application built with React + Vite, backend
             with Node.js and Express.js
           </p>
-          <button className="skill-btn">
+          <button className="work-btn">
             <a href="https://filmvisarna-team4.nodehill.se/" target="_blank">
               Show
             </a>
@@ -46,7 +45,7 @@ const WorkComponent = () => {
           data-aos-easing="ease-in-out"
           data-aos-delay="50"
           data-aos-duration="1500">
-          <div className="skill-circle-icon bg-purple">
+          <div className="work-circle-icon bg-purple">
             <img src={figma} alt="" />
           </div>
           <h4>UX-DESIGN</h4>
@@ -54,7 +53,7 @@ const WorkComponent = () => {
             Different visualizations and design ideas for websites and widgets
             in Figma
           </p>
-          <button className="skill-btn">Show</button>
+          <button className="work-btn">Show</button>
         </div>
         <div
           className="card col-sm col-md"
@@ -62,12 +61,12 @@ const WorkComponent = () => {
           data-aos-easing="ease-in-out"
           data-aos-delay="50"
           data-aos-duration="1500">
-          <div className="skill-circle-icon bg-pink">
+          <div className="work-circle-icon bg-pink">
             <img src={JS} alt="" />
           </div>
           <h4>JAVASCRIPT</h4>
           <p>Memory game built using HTML, CSS and vanilla Javascript</p>
-          <button className="skill-btn">
+          <button className="work-btn">
             <a href="https://eialist.github.io/memory/" target="_blank">
               Show
             </a>
@@ -80,13 +79,16 @@ const WorkComponent = () => {
           data-aos-easing="ease-in-out"
           data-aos-delay="50"
           data-aos-duration="1500">
-          <div className="skill-circle-icon bg-yellow">
+          <div className="work-circle-icon bg-yellow">
             <img src={node} alt="" />
           </div>
-          <h4>REST API</h4>
-          <p>A small MERN rest API. MongoDB, Express.js, React and Node.js</p>
-          <button className="skill-btn">
-            <a href="https://miniapi-rqe5.onrender.com/items" target="_blank">
+          <h4>FULLSTACK</h4>
+          <p>
+            A fullstack application using MERN-stack; MongoDb, Express.js,
+            React.js and Node.js.
+          </p>
+          <button className="work-btn">
+            <a href="https://barnboktipset.onrender.com/" target="_blank">
               Show
             </a>
           </button>

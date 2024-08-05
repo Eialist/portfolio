@@ -163,6 +163,57 @@ a:link {
   overflow: hidden;
 }
 
+/* Skill-component*/
+
+.skill-bg {
+  background: rgb(46,18,51);
+  background: linear-gradient(180deg, rgba(46,18,51,1) 15%, rgba(90,42,78,1) 95%);
+  color: white;
+  height: 600px; 
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-container {
+  padding: 6em; 
+}
+
+.skill-text-container {
+  text-align: center;
+}
+
+.skill-list-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 6em; 
+}
+
+.skill-list-container ul li {
+  list-style: none;
+  padding: 8px 0px;
+  display: flex;
+  align-items: center;  
+}
+
+.skill-list-container ul li span {
+  padding: 0 4px; 
+}
+
+.skill-sm-title {
+    font-size: 32px;
+    font-weight: 600;
+    color: #B0A922 !important;
+    color: #ff6650 !important; 
+    padding-bottom: 16px;
+}
+
+.skill-bg-text {
+  font-size: 14px;
+    color: #BE7B72;
+}
+
 /* Edu-component */
 .edu-bg {
   max-width: 100vw;
@@ -215,7 +266,7 @@ a:link {
   display: none;
 }
 
-.skill-bg {
+.work-bg {
   max-width: 100vw !important;
   height: 850px;
   background: rgb(46,18,51);
@@ -225,7 +276,7 @@ a:link {
   overflow: hidden;
 }
 
-.skill-bg .card {
+.work-bg .card {
   width: 300px;
   background-color: transparent;
   display: flex;
@@ -234,12 +285,12 @@ a:link {
   margin: 72px 0; 
 }
 
-.skill-bg .card h4 {
+.work-bg .card h4 {
   color: #fff;
   margin: 32px 0 16px; 
 }
 
-.skill-bg .card p {
+.work-bg .card p {
   text-align: center;
   height: 75px;
   color: #FDAF7B;
@@ -247,7 +298,7 @@ a:link {
   font-weight: 300;
 }
 
-.skill-bg .row {
+.work-bg .row {
   max-width: 1050px;
   margin: 0px auto;  
   display: flex; 
@@ -274,28 +325,28 @@ a:link {
   background: linear-gradient(215deg, rgba(255,153,0,1) 15%, rgba(251,223,87,1) 85%);
 }
 
-.skill-btn {
+.work-btn {
   background-color: transparent;
   border: 2px solid #FBDF57;
   padding: 3px 20px;
   color: #fff;
 } 
 
-.skill-btn a {
+.work-btn a {
   color: white; 
 }
 
-.skill-btn:hover {
+.work-btn:hover {
   background-color: #FBDF57;
   color: #181818;
   scale: 1.2; 
 }
 
-.skill-btn a:hover {
+.work-btn a:hover {
   color: #181423;
 }
 
-.skill-circle-icon {
+.work-circle-icon {
   width: 85px;
   height: 85px; 
   border-radius: 500px;
@@ -304,21 +355,21 @@ a:link {
   align-items: center;
 }
 
-.skill-circle-icon img {
+.work-circle-icon img {
   width: 40px; 
 }
 
-.skill-text-container {
+.work-text-container {
   text-align: center;
 }
 
-.skill-title {
+.work-title {
   font-size: 32px;
   margin: 0 0 16px;
   color: #FDAF7B
 }
 
-.skill-text {
+.work-text {
   color: #FBDFCC;
   font-size: 14px;
 }
@@ -406,6 +457,30 @@ a:link {
 
 
 @media only screen and (max-width: 900px) {
+
+  .skill-bg {
+    height: 110vh; 
+  }
+
+  .skill-container {
+    padding: 3em;
+    margin-top: -7em; 
+  }
+
+  .skill-list-container {
+    padding: 0; 
+  }
+
+  .skill-list-container ul {
+    padding: 0; 
+    margin: 0;
+  }
+
+  .skill-list-container ul li {
+    height: 90px;
+    font-size: 14px;
+  }
+
   .edu-bg {
     overflow-x: clip;
     position: relative;
@@ -583,20 +658,21 @@ a:link {
     display: none;
   } */
 
-  .skill-bg .card {
+  .work-bg .card {
     margin: 56px auto; 
     /* transform: scale(0.9); */
   }
 
-  .skill-bg .card p{
+  .work-bg .card p{
     height: 100%; 
   }
 
-  .skill-bg {
+  .work-bg {
     height: 100%; 
     padding-bottom: 32px;
     position: relative;
     overflow: hidden;
+    margin-top: -0.1em;
   }
 
   .contact-form-container {
@@ -606,13 +682,19 @@ a:link {
 
 @media only screen and (max-width: 600px) {
   .hero-bg{
-    height: 125vh;
+    padding-top: 4em; 
+    height: 115vh;
   }
   .hero-img {
     width: 100vw;
     height: 420px;
   }
-
+  .skill-bg {
+    height: 115vh; 
+  }
+  .skill-container {
+    padding: 1.5em !important; 
+  }
 }
 
 @keyframes slide-down {

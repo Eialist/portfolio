@@ -50,7 +50,7 @@ const Navbar = ({ scrollToContactComponent }) => {
                   Portfolio
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a
                   className="nav-link nav-text"
                   href="#"
@@ -58,7 +58,7 @@ const Navbar = ({ scrollToContactComponent }) => {
                   disabled>
                   Pricing
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a className="nav-link nav-text" onClick={handleClick}>
                   Contact
