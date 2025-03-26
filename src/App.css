@@ -146,6 +146,12 @@ a:link {
 .hero-text-link {
   font-size: 12px;
   color: #BE7B72 !important;
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+
+.hero-text-link:hover {
+  color: #ff6650 !important; 
 }
 
 .hero-btn {
@@ -254,6 +260,12 @@ a:link {
 .edu-text-link {
   font-size: 12px;
   color: #BE7B72;
+  cursor: pointer;
+  text-decoration: underline !important;
+}
+
+.edu-text-link:hover{
+  color: #FBDF57;
 }
 
 .edu-text {
