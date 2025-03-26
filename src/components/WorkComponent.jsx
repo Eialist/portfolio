@@ -71,11 +71,11 @@ const WorkComponent = () => {
           </div>
           <h4>JAVASCRIPT</h4>
           <p>
-            Memory game built using HTML, CSS and vanilla Javascript, for
-            Desktop.
+            ESL reading app for ages 10-14 with fun, engaging articles made with
+            React, a Javascript library.
           </p>
           <button className="work-btn">
-            <a href="https://eialist.github.io/memory/" target="_blank">
+            <a href="https://mereads.onrender.com" target="_blank">
               Show
             </a>
           </button>
@@ -92,8 +92,9 @@ const WorkComponent = () => {
           </div>
           <h4>FULLSTACK</h4>
           <p>
-            A fullstack application using MERN-stack; MongoDb, Express.js,
-            React.js and Node.js.
+            A fullstack application using MERN-stack. <br></br>
+            Try it out! <br></br>
+            Username: Test, password: test.
           </p>
           <button className="work-btn">
             <a href="https://barnboktipset.onrender.com/" target="_blank">
